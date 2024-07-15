@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h2 class="name">Waleed alzahrani</h2>
+        <nav class="navbar">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#recommendations">Recommendations</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="about">
+            <h2>About me</h2>
+            <img src="photo/business man logo.jpg" alt="Profile Image" class="profile-image">
+            <h2>Hi there, i'm waleed alzharani</h2>
+            <p>My name is Waleed Alzahrani, a 21 year old full stack developer currently studying at Umm Al-Qura University. As a new developer, I am passionate about building dynamic web applications and continuously expanding my skills in both front-end and back-end technologies.</p>
+        </section>
+
+        <hr>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skill">
+                <img src="photo/Java.logo.jpg" alt="JavaScript Logo">
+                <p>Java</p>
+                <p><small>1 year experience</small></p>
+            </div>
+
+            <div class="skill">
+                <img src="photo/Python.logo.jpg" alt="JavaScript Logo">
+                <p>Python</p>
+                <p><small>1 year experience</small></p>
+            </div>
+
+            <div class="skill">
+                <img src="photo/HTML.logo.jpg" alt="HTML Logo">
+                <p>HTML</p>
+                <p><small>1 year experience</small></p>
+            </div>
+
+            <div class="skill">
+                <img src="photo/CSS.logo.jpg" alt="CSS Logo">
+                <p>CSS</p>
+                <p><small>5 month experience</small></p>
+            </div>
+
+            <div class="skill">
+                <img src="photo/JS.logo.jpg" alt="JavaScript Logo">
+                <p>JavaScript</p>
+                <p><small>1 month experience</small></p>
+            </div>
+
+        </section>
+
+        <hr>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Umm alqura BookStore</h3>
+                <p>Umm alqura (or UQU) BookStore is a store to buy some box in the UQU University.</p>
+            </div>
+
+            <div class="project">
+                <h3>Weather App</h3>
+                <p>Built a web app to display current weather conditions using an external API.</p>
+            </div>
+
+            <div class="project">
+                <h3>Task Manager</h3>
+                <p>Developed a basic to-do list application to add, edit, and delete tasks.</p>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="recommendations">
+            <h2>Recommendations</h2>
+            <div class="recommendation">
+                <p>Waleed's website is an excellent showcase of his skills and projects. It clearly demonstrates his expertise as a full stack developer.</p>
+            </div>
+
+            <div class="recommendation">
+                <p>This website provides a great overview of Waleed's experience and capabilities. It's well-organized and easy to navigate, reflecting his professionalism.</p>
+            </div>
+
+            <div class="recommendation">
+                <p>I highly recommend Waleed's website for anyone interested in his work. It's an impressive portfolio that highlights his talents and achievements effectively.</p>
+            </div>
+
+            <br>
+
+            <form id="recommendationForm">
+                <label for="recommendationInput">Add Recommendation:</label>
+                <input type="text" id="recommendationInput" required>
+                <button type="submit">Submit</button>
+            </form>
+
+        </section>
+
+    </main>
+    
+    <footer>
+        <a href="#"><i id="icon" class="material-icons">home</i>
+        </a>    
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
